@@ -16,7 +16,7 @@ const Content = ({ items }) => {
                         ))
                     }
                 </Div_>
-                <More onClick />
+                <More />
             </Content_>
         </div>
     )

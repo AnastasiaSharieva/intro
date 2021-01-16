@@ -1,19 +1,24 @@
 import styled from 'styled-components';
 
-
-
 export const Content_ = styled.div`
 width: 100%;
 min-height: 1165px;
 background-color:#E5E5E5;
-padding: 60px 463px;
+padding: 60px 462px;
+& section:nth-child(3n+1){
+    margin: 0 35px 35px 0;
+    }
+& section:nth-child(3n+3){
+    margin: 0 0 35px 35px;
+    }
 `;
 export const Div_ = styled.div`
 display:flex;
 flex-wrap: wrap;
+
 `;
 
-export const Block = styled.div`
+export const Block = styled.section`
 width: 285px;
 height: 464px;
 background: #FFFFFF;
