@@ -1,7 +1,7 @@
 import React from 'react';
 import { Block, Top, Middle, H3_, Bottom, Button_, Card, Parag, Span_, H2_, Block_house, H3_first, BlockH3 } from '../ContentStyle';
-import { ReactComponent as Logo } from '../../../assets/house-icon.svg';
-import image from '../../../assets/photo.svg';
+import { ReactComponent as Logo } from '../../../../assets/house-icon.svg';
+import image from '../../../../assets/photo.svg';
 
 const Inform = ({ name, number, promotions, irr, equity, income, start, distributionPeriod }) => {
     return (

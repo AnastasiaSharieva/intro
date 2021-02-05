@@ -5,7 +5,7 @@ import { navig } from '../../navig';
 const Nav = () => {
     const renderLink = () => {
         return navig.map(({ name, route }) => (
-            <NavLink_ key={route} href={route}>
+            <NavLink_ key={route} to={route}>
                 {name}
             </NavLink_>
         ));

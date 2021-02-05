@@ -107,5 +107,10 @@ border-radius: 3px;
 width:160px;
 height:30px;
 margin: 14px 42px 0;
+color:#fff;
+font-weight:bold;
+font-size:16px;
+line-height:19px;
+border:none;
 `;
 

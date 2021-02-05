@@ -1,11 +1,11 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../../../assets/arrows.svg';
+import { ReactComponent as Logo } from '../../../../assets/arrows.svg';
 import { BlockButt_, MoreBut } from './MoreStyle';
 
 
-const More = () => {
+const More = ({ onClick }) => {
     return (
-        <BlockButt_>
+        <BlockButt_ onClick={onClick}>
             <Logo />
             <MoreBut>
                 Show More
