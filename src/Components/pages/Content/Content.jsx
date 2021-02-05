@@ -18,7 +18,10 @@ import { createDeals } from '../../../helpers/createPagesDeals'
 //     { name: 'Deals', number: '11', promotions: ' Equities', irr: '1', equity: '43', income: '40', start: '20', distributionPeriod: '1' },
 //     { name: 'Cur', number: '12', promotions: 'Feldman ', irr: '4', equity: '18', income: '330', start: '10', distributionPeriod: '2' },
 // ];
-const items = createDeals(18);
+
+const maxCount = 100;
+
+const items = createDeals(maxCount);
 
 const Content = () => {
     const [count, setCount] = useState(6);
@@ -39,7 +42,7 @@ const Content = () => {
                 <Div_>
                     {renderDeals()}
                 </Div_>
-                {count < 18 ?
+                {count < maxCount ?
                     <More onClick={onShowMore} /> : null}
             </Content_>
         </div>
